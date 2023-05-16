@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Hosted_Enriched_DynamoDb.props" />
+</Project>

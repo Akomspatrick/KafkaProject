@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KafkaProject.props" />
+</Project>

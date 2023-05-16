@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VRn6W2ybiRNN7n5ebXCvGOklX5aX5L/qO4c8POeW+5s=",
+  "Source": "Hosted_Enriched_DynamoDb",
+  "BasePath": "_content/Hosted_Enriched_DynamoDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

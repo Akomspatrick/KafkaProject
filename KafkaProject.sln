@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProject", "KafkaProject\KafkaProject.csproj", "{36F10D80-5BEC-4385-B1C0-1CF4C2D1FFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProducer", "UserProducer\UserProducer.csproj", "{3F2E1AB6-DAB6-4D47-AC52-23EF2C0BE9B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnrichmentController", "EnrichmentController\EnrichmentController.csproj", "{2492C1B9-A586-4FD2-B8B6-2EAEB120C605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{5315C048-058F-4EF2-9D86-527FB7054339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDetailProducer", "UserDetailProducer\UserDetailProducer.csproj", "{FBB63D0A-6B8D-4070-9E47-EBE39B280DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hosted_Enriched_DynamoDb", "Hosted_Enriched_DynamoDb\Hosted_Enriched_DynamoDb.csproj", "{8BECBDCE-7FF9-4A3A-8305-F0A954D6F54F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F10D80-5BEC-4385-B1C0-1CF4C2D1FFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F10D80-5BEC-4385-B1C0-1CF4C2D1FFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F10D80-5BEC-4385-B1C0-1CF4C2D1FFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F10D80-5BEC-4385-B1C0-1CF4C2D1FFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2E1AB6-DAB6-4D47-AC52-23EF2C0BE9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2E1AB6-DAB6-4D47-AC52-23EF2C0BE9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2E1AB6-DAB6-4D47-AC52-23EF2C0BE9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2E1AB6-DAB6-4D47-AC52-23EF2C0BE9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2492C1B9-A586-4FD2-B8B6-2EAEB120C605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2492C1B9-A586-4FD2-B8B6-2EAEB120C605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2492C1B9-A586-4FD2-B8B6-2EAEB120C605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2492C1B9-A586-4FD2-B8B6-2EAEB120C605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5315C048-058F-4EF2-9D86-527FB7054339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5315C048-058F-4EF2-9D86-527FB7054339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5315C048-058F-4EF2-9D86-527FB7054339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5315C048-058F-4EF2-9D86-527FB7054339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB63D0A-6B8D-4070-9E47-EBE39B280DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB63D0A-6B8D-4070-9E47-EBE39B280DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB63D0A-6B8D-4070-9E47-EBE39B280DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB63D0A-6B8D-4070-9E47-EBE39B280DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BECBDCE-7FF9-4A3A-8305-F0A954D6F54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BECBDCE-7FF9-4A3A-8305-F0A954D6F54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BECBDCE-7FF9-4A3A-8305-F0A954D6F54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BECBDCE-7FF9-4A3A-8305-F0A954D6F54F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {114BF2F7-B55F-4D70-9483-03452B22FFB8}
+	EndGlobalSection
+EndGlobal
